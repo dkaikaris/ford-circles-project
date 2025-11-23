@@ -98,7 +98,7 @@ for frac, (p, q) in L_zoom:
 
 # axis settings
 ax3.set_xlim(xmin, xmax)
-ax3.set_ylim(0, (zoom_width)*2.5)  # automatic reasonable vertical scale
+ax3.set_ylim(0, (zoom_width)*1.5)  # automatic reasonable vertical scale
 ax3.set_aspect('equal', adjustable='box')
 
 plt.show()
